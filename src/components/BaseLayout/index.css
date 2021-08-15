@@ -1,0 +1,43 @@
+.content {
+  background-color: #F9F6F6;
+}
+
+.first-header {
+  background: url('https://images.unsplash.com/photo-1506617564039-2f3b650b7010?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JvY2VyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+.second-header {
+  background: url('https://freepngimg.com/thumb/grocery/41628-4-groceries-hd-image-free-png.png');
+}
+
+.third-header {
+  background: url('https://www.seekpng.com/png/detail/84-847242_grocery-png-transparent-hd-photo-get-a-250.png');
+}
+
+.fourth-header {
+  background: url('https://images.unsplash.com/photo-1506617564039-2f3b650b7010?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JvY2VyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+/* 
+.first-header {
+  background: url('/1.jpg');
+}
+
+.second-header {
+  background: url('/2.jpg');
+}
+
+.third-header {
+  background: url('/3.jpg');
+}
+
+.fourth-header {
+  background: url('/4.jpg');
+} */
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
